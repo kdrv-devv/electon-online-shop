@@ -1,0 +1,37 @@
+.showcase-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 4rem;
+  .showcase-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    h3 {
+      font-weight: 700;
+      font-size: 4.3rem;
+      color: #1b5a7d;
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      gap: 2.1rem;
+      button {
+        border-radius: 2rem;
+        width: 14.4rem;
+        height: 6.1rem;
+        font-weight: 600;
+        font-size: 1.6rem;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .bnt2{
+        border: 1px solid #316887 !important;
+        background-color: #fff;
+        color: #316887;
+    }
+    }
+  }
+}

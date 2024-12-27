@@ -1,0 +1,161 @@
+.header{
+  position: sticky;
+  top: 0 ;
+  z-index: 99;
+}
+.header-top > div {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+.header-left {
+  a {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #292d32;
+  }
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 3.6rem;
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #292d32;
+    gap: 1rem;
+  }
+}
+
+// coming soon header-top responsive
+
+// coming soon header-top responsive
+
+// start header-center
+.header-center {
+  background-color: #003f62;
+}
+.header-center > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.2rem 0;
+}
+
+.header-center-left {
+  display: flex;
+  align-items: center;
+  gap: 8.5rem;
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 2rem;
+    width: 43.8rem;
+    height: 5.6rem;
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      height: 100%;
+      width: 70%;
+      padding-left: 2rem;
+
+      ::placeholder {
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #292d32;
+      }
+    }
+    button {
+      border-radius: 2rem;
+      width: 13.2rem;
+      background-color: #eda315;
+      height: 5.6rem;
+      transition: 0.3s;
+      &:hover {
+        background-color: #ffb732;
+        box-shadow: 0 0 1rem #ffff;
+      }
+    }
+  }
+}
+
+.header-center-right {
+  display: flex;
+  align-items: center;
+  gap: 2.9rem;
+  button {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: transparent;
+  }
+  .liked{
+    color:  white;
+  }
+}
+
+// start header-bottom
+
+.header-bottom {
+  background: #f4f4f4;
+}
+
+.header-bottom > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7.1rem;
+}
+
+.header-bottom-left {
+  display: flex;
+  align-items: center;
+  gap: 9.8rem;
+  button {
+    height: 7.1rem;
+    width: 21.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #eda315;
+
+  }
+  .header-links {
+    display: flex;
+    align-items: center;
+    gap: 2.9rem;
+    a {
+      font-weight: 500;
+      font-size: 1.6rem;
+      color: #3a3a3a;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+}
+.header-bottom-right {
+  a {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #003f62;
+  }
+}

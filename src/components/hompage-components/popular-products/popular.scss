@@ -1,0 +1,98 @@
+.popular-products > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5.3rem;
+  margin-top: 8.2rem;
+}
+.popular-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h4 {
+    font-weight: 600;
+    font-size: 2.7rem;
+    color: #1b5a7d;
+  }
+
+  .popular-right {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    button {
+      border-radius: 2rem;
+      width: 13.9rem;
+      height: 4.5rem;
+      background-color: transparent;
+      font-weight: 500;
+      font-size: 1.6rem;
+      color: #1b5a7d;
+      border: 1px solid #b5b5b5;
+    }
+  }
+}
+.popular-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.popular-card {
+  width: 100%;
+  border-radius: 2rem;
+  border: 0.98px solid #b6b6b6 !important;
+  height: 32.3rem;
+  .card-top {
+    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    position: relative;
+    img {
+      height: 100%;
+    }
+
+    .add-like {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      border-radius: 100%;
+      width: 3.7rem;
+      height: 3.7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 23px;
+    }
+  }
+  .card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem,;
+    .add-cart {
+      border-radius: 2rem;
+      width: 80%;
+      height: 5.9rem;
+      background: #87bcd9;
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: #272727;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      padding: 0 2rem;
+    }
+    .see{
+        border-radius: 2rem;
+        width: 17%;
+        height: 5.9rem;
+        background: #87bcd9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.7rem;
+
+    }
+  }
+}
